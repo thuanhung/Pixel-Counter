@@ -45,10 +45,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(284, 73);
             this.Controls.Add(this.PixelLabel);
             this.Name = "PixelLable";
-            this.Text = "Pixel in Window =";
+            this.Text = "Pixel Counter";
             this.Load += new System.EventHandler(this.PixelLable_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
