@@ -39,6 +39,7 @@
             this.PixelLabel.Size = new System.Drawing.Size(88, 13);
             this.PixelLabel.TabIndex = 0;
             this.PixelLabel.Text = "Pixel in Winow = ";
+            this.PixelLabel.Resize += new System.EventHandler(this.Form1_Resize);
             // 
             // PixelLable
             // 

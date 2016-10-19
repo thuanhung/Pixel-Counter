@@ -30,5 +30,10 @@ namespace Pixels_and_Windows
             int pixels = height * width;
             return pixels;
         }
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            int pixel = getPixels();
+            PixelLabel.Text = "After resizing, this window contains " + pixel + " pixels";
+        }
     }
 }
