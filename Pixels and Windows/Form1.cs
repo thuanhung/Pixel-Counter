@@ -16,5 +16,19 @@ namespace Pixels_and_Windows
         {
             InitializeComponent();
         }
+
+        private void PixelLable_Load(object sender, EventArgs e)
+        {
+            int pixels = getPixels();
+            PixelLabel.Text = "This window contains " + pixels + "pixels ";
+        }
+
+        private int getPixels()
+        {
+            int height = this.Size.Height;
+            int width = this.Size.Width;
+            int pixels = height * width;
+            return pixels;
+        }
     }
 }
