@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Pixels_and_Windows
 {
-    public partial class Form1 : Form
+    public partial class PixelLable : Form
     {
-        public Form1()
+        public PixelLable()
         {
             InitializeComponent();
         }
